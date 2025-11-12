@@ -34,9 +34,11 @@ header nav p {
   transition: 0.5s;
   padding: 10px;
 }
+
 header nav p:hover {
   transform: scale(1.1);
   cursor: pointer;
   background-color: green;
   border-radius: 10px;
 }
+
