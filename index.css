@@ -28,3 +28,12 @@ header nav {
   gap: 20px;
   align-items: center;
 }
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #222;
+  color: white;
+  margin-top: 3rem;
+}
+
