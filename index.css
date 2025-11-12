@@ -10,6 +10,9 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  background-image: url(https://t3.ftcdn.net/jpg/01/85/57/96/360_F_185579665_NMf32rs2DHwV8PXipMIyAiwhvib9iGgv.jpg);
+  background-size: contain;
+  color: white;
 }
 header img {
   width: 100px;
