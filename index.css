@@ -42,3 +42,14 @@ header nav p:hover {
   background-color: rgba(0, 128, 0, 0.548);
   border-radius: 10px;
 }
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+main div {
+  height: 300px;
+  border: 2px black solid;
+}
+.stornyhet {
+  grid-column: span 2;
+}
