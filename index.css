@@ -29,11 +29,8 @@ header nav {
   align-items: center;
 }
 
-footer {
-  text-align: center;
-  padding: 2rem;
-  background-color: #222;
-  color: white;
-  margin-top: 3rem;
+header nav p:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
