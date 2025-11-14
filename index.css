@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +15,9 @@ header {
   background-size: contain;
   color: white;
   padding-inline: 40px;
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
 header img {
   width: 100px;
@@ -23,7 +27,7 @@ header img {
   display: flex;
   gap: 25px;
   align-items: center;
-  font-size: 50px;
+  font-size: 60px;
 }
 header nav {
   display: flex;
@@ -57,5 +61,8 @@ section {
 
 section div {
   height: 300px;
-  border: 2px black solid;
+  border: 2px white solid;
+}
+body {
+  background-color: black;
 }
