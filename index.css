@@ -7,6 +7,12 @@
 img {
   display: block;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -35,12 +41,13 @@ header nav {
   align-items: center;
   width: 25%;
 }
-header nav p {
+header nav a {
   transition: 0.5s;
   padding: 10px;
+  font-size: 20px;
 }
 
-header nav p:hover {
+header nav a:hover {
   transform: scale(1.1);
   cursor: pointer;
   background-color: rgba(0, 128, 0, 0.548);
