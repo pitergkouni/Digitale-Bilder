@@ -50,6 +50,3 @@ main div {
   height: 300px;
   border: 2px black solid;
 }
-.stornyhet {
-  grid-column: span 2;
-}
