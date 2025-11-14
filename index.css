@@ -57,5 +57,8 @@ section {
 
 section div {
   height: 300px;
-  border: 2px black solid;
+  border: 2px white solid;
+}
+body {
+  background-color: black;
 }
