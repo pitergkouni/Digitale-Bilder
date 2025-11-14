@@ -42,11 +42,17 @@ header nav p:hover {
   background-color: rgba(0, 128, 0, 0.548);
   border-radius: 10px;
 }
-main {
+section {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  width: 75%;
 }
-main div {
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section div {
   height: 300px;
   border: 2px black solid;
 }
