@@ -85,10 +85,14 @@ section article {
   grid-column: span 4;
   grid-row: span 2;
   background-color: green;
+  font-size: 60px;
 }
 
 .litennyhet {
   grid-column: span 2;
+  background-color: green;
+  font-size: 40px;
+
 }
 
 
