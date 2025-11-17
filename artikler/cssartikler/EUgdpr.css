@@ -15,14 +15,36 @@ section {
 }
 .førstenyhetcontainer {
   display: flex;
-  border-block: 3px solid black;
-  padding-block: 30px;
   gap: 20px;
+  border-block: 3px solid black;
+  padding-block: 20px;
 }
 .førstenyhetcontainer p {
   text-align: justify;
   line-height: 25px;
+  border-top: 3px solid black;
+  padding-top: 20px;
+}
+.førstenyhetcontainer h1 {
+  padding-bottom: 20px;
 }
 .førstenyhetcontainer div {
   width: 50%;
+}
+.andrenyhetcontainer {
+  display: flex;
+  gap: 20px;
+  padding-block: 20px;
+}
+.andrenyhetcontainer div {
+  width: 50%;
+}
+.andrenyhetcontainer p {
+  text-align: justify;
+  line-height: 25px;
+  border-top: 3px solid black;
+  padding-top: 20px;
+}
+.andrenyhetcontainer h1 {
+  padding-bottom: 20px;
 }
