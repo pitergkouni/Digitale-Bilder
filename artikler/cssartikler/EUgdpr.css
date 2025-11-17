@@ -4,6 +4,9 @@ body {
   color: white;
   background-color: black;
 }
+h1 {
+  color: rgb(0, 190, 126);
+}
 .sectioncontainer {
   display: flex;
   flex-direction: column;
@@ -18,13 +21,13 @@ section {
 .førstenyhetcontainer {
   display: flex;
   gap: 20px;
-  border-block: 3px solid white;
+  border-block: 3px solid gray;
   padding-block: 20px;
 }
 .førstenyhetcontainer p {
   text-align: justify;
   line-height: 25px;
-  border-top: 3px solid white;
+  border-top: 3px solid gray;
   padding-top: 20px;
 }
 .førstenyhetcontainer h1 {
@@ -36,13 +39,13 @@ section {
 .andrenyhetcontainer {
   display: flex;
   gap: 20px;
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid gray;
   padding-block: 20px;
 }
 .andrenyhetcontainer p {
   text-align: justify;
   line-height: 25px;
-  border-top: 3px solid white;
+  border-top: 3px solid gray;
   padding-top: 20px;
 }
 .andrenyhetcontainer h1 {
