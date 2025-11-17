@@ -1,7 +1,7 @@
 :root{
-  --accent: #2463b3;
-  --bg: #f6f8fb;
-  --card: #fff;
+  --accent: black;
+  --bg:  rgba(0, 128, 0, 0.548);
+  --card:  rgba(0, 128, 0, 0.548);
   --text: #222;
   --muted: #666;
   --radius: 8px;
@@ -15,6 +15,7 @@ body {
   background: var(--bg);
   color: var(--text);
   line-height: 1.5;
+  background-color: #000000;
 }
 
 .inner {
