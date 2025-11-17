@@ -4,6 +4,9 @@ body {
   color: white;
   background-color: black;
 }
+img {
+    border-radius: 20px;
+}
 h1 {
   color: rgb(0, 190, 126);
 }
