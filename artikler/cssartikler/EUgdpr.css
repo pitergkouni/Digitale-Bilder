@@ -25,7 +25,6 @@ section {
   width: 60%;
   display: flex;
   flex-direction: column;
-  height: fit-content;
 }
 .førstenyhetcontainer {
   display: flex;
