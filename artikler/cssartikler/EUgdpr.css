@@ -3,9 +3,15 @@ body {
   gap: 50px;
   color: white;
   background-color: black;
+  cursor: default;
 }
 img {
   border-radius: 20px;
+  transition: 0.2s;
+}
+img:hover {
+  border-radius: 0;
+  visibility: hidden;
 }
 h1 {
   color: rgb(0, 190, 126);
@@ -35,6 +41,9 @@ section {
 }
 .førstenyhetcontainer h1 {
   padding-bottom: 20px;
+}
+h1:hover {
+  visibility: hidden;
 }
 .førstenyhetcontainer div {
   width: 50%;
