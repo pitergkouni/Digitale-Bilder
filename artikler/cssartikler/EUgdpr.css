@@ -69,14 +69,31 @@ h1:hover {
 .sistenyhetcontainer {
   display: flex;
   gap: 20px;
+  padding-top: 20px;
+}
+.sistenyhetcontainer img {
+  height: fit-content;
 }
 .sistenyhetcontainer h1 {
   font-size: 60px;
 }
 .sistenyhetcontainer p {
   text-align: justify;
+  line-height: 25px;
+  border-top: 3px gray solid;
+  padding-top: 20px;
 }
 .totekstcontainer {
   display: flex;
+  gap: 20px;
+}
+.tittelogtotekst {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bigtechcontainer {
+  display: flex;
+  flex-direction: column;
   gap: 20px;
 }
