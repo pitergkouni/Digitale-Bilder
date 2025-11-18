@@ -79,12 +79,12 @@ h1:hover {
 .sistenyhetcontainer p {
   text-align: justify;
   line-height: 25px;
-  border-top: 3px gray solid;
-  padding-top: 20px;
 }
 .totekstcontainer {
   display: flex;
   gap: 20px;
+  border-top: gray 3px solid;
+  padding-top: 20px;
 }
 .tittelogtotekst {
   display: flex;
