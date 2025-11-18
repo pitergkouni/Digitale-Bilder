@@ -66,3 +66,17 @@ h1:hover {
 .andrenyhetcontainer div {
   width: 50%;
 }
+.sistenyhetcontainer {
+  display: flex;
+  gap: 20px;
+}
+.sistenyhetcontainer h1 {
+  font-size: 60px;
+}
+.sistenyhetcontainer p {
+  text-align: justify;
+}
+.totekstcontainer {
+  display: flex;
+  gap: 20px;
+}
