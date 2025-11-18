@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
 }
 
 img {
@@ -92,7 +94,6 @@ section article {
   grid-column: span 2;
   background-color: green;
   font-size: 40px;
-
 }
 
 footer {
@@ -126,4 +127,3 @@ footer ul {
 .publisert h3 {
   margin-bottom: 10px;
 }
-
