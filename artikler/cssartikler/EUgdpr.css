@@ -5,7 +5,7 @@ body {
   background-color: black;
 }
 img {
-    border-radius: 20px;
+  border-radius: 20px;
 }
 h1 {
   color: rgb(0, 190, 126);
@@ -24,7 +24,7 @@ section {
 .førstenyhetcontainer {
   display: flex;
   gap: 20px;
-  border-block: 3px solid gray;
+  border-bottom: 3px solid gray;
   padding-block: 20px;
 }
 .førstenyhetcontainer p {
