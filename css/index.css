@@ -87,7 +87,6 @@ section {
 }
 
 section article {
-  border: 2px white solid;
   display: flex;
   flex-direction: column;
 
