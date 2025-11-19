@@ -24,7 +24,7 @@ main img {
   width: 100%;
 }
 .gråkubber {
-  filter: brightness(50%);
+  filter: brightness(60%);
 }
 header {
   display: flex;
