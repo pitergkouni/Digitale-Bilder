@@ -96,3 +96,16 @@ h1:hover {
   flex-direction: column;
   gap: 20px;
 }
+.lastpandimage {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.lastpandimage h1 {
+  border-block: gray 3px solid;
+  padding-block: 20px;
+  font-size: 40px;
+}
+.lastpandimage p {
+  padding-top: 20px;
+}
