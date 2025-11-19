@@ -23,6 +23,9 @@ main {
 main img {
   width: 100%;
 }
+.gråkubber {
+  filter: brightness(50%);
+}
 header {
   display: flex;
   justify-content: space-between;
