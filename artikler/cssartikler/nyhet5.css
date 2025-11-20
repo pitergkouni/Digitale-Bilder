@@ -1,0 +1,93 @@
+body {
+  display: grid;
+  gap: 50px;
+  color: white;
+  background-color: black;
+  cursor: default;
+}
+img {
+  border-radius: 20px;
+  transition: 0.2s;
+}
+img:hover {
+  border-radius: 0;
+  visibility: hidden;
+}
+h1 {
+  color: rgb(0, 190, 126);
+}
+.sectioncontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.førstenyhetcontainer {
+  display: flex;
+  gap: 20px;
+  border-bottom: 3px solid gray;
+  padding-block: 20px;
+}
+.førstenyhetcontainer p {
+  text-align: justify;
+  line-height: 25px;
+  border-top: 3px solid gray;
+  padding-top: 20px;
+}
+.førstenyhetcontainer h1 {
+  padding-bottom: 20px;
+}
+h1:hover {
+  visibility: hidden;
+}
+.førstenyhetcontainer div {
+  width: 50%;
+}
+.andrenyhetcontainer {
+  display: flex;
+  gap: 20px;
+  border-bottom: 3px solid gray;
+  padding-block: 20px;
+}
+.andrenyhetcontainer p {
+  text-align: justify;
+  line-height: 25px;
+  border-top: 3px solid gray;
+  padding-top: 20px;
+}
+.andrenyhetcontainer h1 {
+  padding-bottom: 20px;
+}
+.andrenyhetcontainer div {
+  width: 50%;
+}
+.sistenyhetcontainer {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+.sistenyhetcontainer img {
+  height: fit-content;
+}
+.sistenyhetcontainer h1 {
+  font-size: 60px;
+}
+.sistenyhetcontainer p {
+  text-align: justify;
+  line-height: 25px;
+}
+.totekstcontainer {
+  display: flex;
+  gap: 20px;
+  border-top: gray 3px solid;
+  padding-top: 20px;
+}
+.tittelogtotekst {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
