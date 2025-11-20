@@ -1,6 +1,5 @@
 body {
   display: grid;
-  gap: 50px;
   color: white;
   background-color: black;
   cursor: default;
@@ -25,6 +24,32 @@ section {
   width: 60%;
   display: flex;
   flex-direction: column;
+}
+.bigtitlecontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.bigtitle {
+  text-align: center;
+  font-size: 100px;
+  color: white;
+}
+.bigtitle:hover {
+  visibility: visible;
+}
+.bigtitlecontainer div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  border-block: 3px gray solid;
+  padding-block: 10px;
+}
+.bigtitlecontainer div p {
+  transition: 0.2s;
+}
+.bigtitlecontainer div p:hover {
+  transform: scale(1.1);
 }
 .førstenyhetcontainer {
   display: flex;
