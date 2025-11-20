@@ -1,0 +1,71 @@
+body {
+  display: grid;
+  color: white;
+  background-color: black;
+  cursor: default;
+}
+
+.page-wrapper {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: gray;
+    padding: 30px 40px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px) ;
+}
+
+.undertit {
+    color: black;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+h2 {
+    margin-top: 32px;
+    font-size: 16px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 7px;
+}
+
+.kilde-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.kilde-item {
+    margin-bottom: 1rem;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    background-color: black;
+    border: 1px solid #e3e3e3;
+}
+
+.source-title {
+    font-weight: 600;
+}
+
+.source-meta {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.2rem;
+}
+
+.source-link a {
+    color: rgb(0, 190, 126);
+    text-decoration: none;
+    word-break: break-all;
+}
+
+.source-link a:hover {
+    text-decoration: underline;
+}
+
+
+
+@media (max-width: 600px) {
+    .page-wrapper {
+        margin: 10px;
+        padding: 20px;
+    }
+}
