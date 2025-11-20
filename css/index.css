@@ -184,3 +184,24 @@ footer {
 .nor {
   font-size: 20px;
 }
+
+@media (width < 950px) {
+  
+  .stornyhet {
+    grid-column: span 6;
+  }
+
+  .litennyhet {
+    grid-column: span 3;
+  }
+
+  .spesiell {
+    grid-column: span 6;
+  }
+}
+
+@media (width < 650px) {
+  .litennyhet {
+    grid-column: span 6;
+  }
+}
