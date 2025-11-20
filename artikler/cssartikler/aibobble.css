@@ -96,3 +96,7 @@ h1:hover {
   flex-direction: column;
   gap: 20px;
 }
+.logotitleaibubble {
+  display: flex;
+  gap: 25px;
+}
