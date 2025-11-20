@@ -5,7 +5,6 @@
   box-sizing: border-box;
   text-decoration: none;
   color: inherit;
-  cursor: default;
 }
 
 img {
@@ -16,6 +15,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
 main {
   display: flex;
   flex-direction: column;
@@ -36,6 +36,9 @@ header {
   font-weight: 400;
   font-style: normal;
 }
+header p {
+  cursor: default;
+}
 .imagecontainer {
   position: relative;
   width: 100%;
@@ -47,18 +50,24 @@ header {
   flex-direction: column;
   justify-content: center;
   padding-left: 100px;
+  cursor: default;
 }
 .textoverlay h1 {
   font-size: 110px;
   width: 70%;
   line-height: 100px;
+  cursor: default;
 }
 .textoverlay p {
   width: 50%;
   font-size: 20px;
   line-height: 30px;
-  padding-top: 10px;
-  padding-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.471);
+  margin-bottom: 20px;
+  margin-top: 5px;
+  cursor: default;
 }
 .checknadderud {
   width: fit-content;
@@ -75,6 +84,7 @@ header {
   text-align: center;
   transition: 0.3s;
   background-color: rgb(36, 164, 83);
+  box-shadow: 0 0 100px black;
 }
 .gråkubber {
   position: absolute;
@@ -243,10 +253,26 @@ footer {
   .spesiell {
     grid-column: span 6;
   }
+  .textoverlay {
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+  }
+  .textoverlay h1 {
+    width: 100%;
+    text-align: center;
+    display: grid;
+  }
+  .textoverlay p {
+    width: 80%;
+  }
 }
 
 @media (width < 650px) {
   .litennyhet {
     grid-column: span 6;
+  }
+  .textoverlay p {
+    font-size: 14px;
   }
 }
