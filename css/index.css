@@ -137,33 +137,50 @@ section article h1 {
 }
 
 footer {
-  background-color: rgba(0, 128, 0, 0.5);
+  background-color: rgba(0, 128, 0, 0.328);
   margin-top: 100px;
   padding: 20px;
   color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.om_oss {
   display: flex;
   justify-content: space-between;
 }
 
 .navn {
   padding: 20px;
-  font-size: 40px;
+  font-size: 50px;
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .lagetav {
   padding: 20px;
+  padding-left: 40px;
 }
-footer ul {
-  padding: 20px;
+.lagetav p {
+  font-size: 25px;
+}
+
+.lagetav ul {
+  padding: 10px;
   line-height: 25px;
 }
 
 .publisert {
   padding: 20px;
   padding-right: 40px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
-.publisert h3 {
+.publisert p {
   margin-bottom: 10px;
+}
+
+.nor {
+  font-size: 20px;
 }
