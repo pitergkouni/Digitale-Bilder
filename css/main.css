@@ -27,7 +27,9 @@ header {
   font-weight: 400;
   font-style: normal;
   transition: 0.5s;
+  padding-right: 0;
 }
+
 header img {
   width: 100px;
   border-radius: 50%;
@@ -62,12 +64,8 @@ header nav a:hover {
   background-color: rgba(0, 128, 0, 0.548);
   border-radius: 10px;
 }
-body{
-  
+body {
   font-family: "Quintessential", serif;
   font-weight: 400;
   font-style: normal;
 }
-
-
-

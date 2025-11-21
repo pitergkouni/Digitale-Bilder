@@ -74,6 +74,14 @@ header p {
   margin-top: 5px;
   cursor: default;
 }
+nav .icon {
+  display: flex;
+  gap: 10px;
+}
+.barnicon {
+  display: flex;
+  align-items: center;
+}
 .checknadderud {
   width: fit-content;
   padding-block: 10px;
