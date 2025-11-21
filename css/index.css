@@ -6,7 +6,9 @@
   text-decoration: none;
   color: inherit;
 }
-
+body {
+  overflow-x: hidden;
+}
 img {
   display: block;
 }
@@ -15,7 +17,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
+body {
+  width: 100%;
+}
 main {
   display: flex;
   flex-direction: column;
@@ -266,6 +270,10 @@ footer {
   .textoverlay p {
     width: 80%;
   }
+  .gråkubber {
+    width: 140%;
+    height: 550px;
+  }
 }
 
 @media (width < 650px) {
@@ -273,6 +281,9 @@ footer {
     grid-column: span 6;
   }
   .textoverlay p {
-    font-size: 14px;
+    font-size: 15px;
+  }
+  .gråkubber {
+    width: 170%;
   }
 }
