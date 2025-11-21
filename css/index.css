@@ -68,7 +68,7 @@ header p {
   font-size: 18px;
   line-height: 30px;
   padding-block: 20px;
-  padding-right: 20px;
+  padding-inline: 20px;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.471);
   margin-bottom: 20px;
