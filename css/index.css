@@ -61,10 +61,11 @@ header p {
   width: 70%;
   line-height: 100px;
   cursor: default;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .textoverlay p {
   width: 50%;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
   padding-block: 20px;
   padding-right: 20px;
@@ -73,6 +74,7 @@ header p {
   margin-bottom: 20px;
   margin-top: 5px;
   cursor: default;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 nav .icon {
   display: flex;
@@ -91,6 +93,7 @@ nav .icon {
   font-size: 30px;
   transition: 0.3s;
   cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .checknadderud:hover {
   padding-inline: 60px;
