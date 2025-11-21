@@ -66,7 +66,8 @@ header p {
   width: 50%;
   font-size: 20px;
   line-height: 30px;
-  padding: 20px;
+  padding-block: 20px;
+  padding-right: 20px;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.471);
   margin-bottom: 20px;
@@ -269,6 +270,8 @@ footer {
   }
   .textoverlay p {
     width: 80%;
+    padding-left: 20px;
+    text-align: justify;
   }
   .gråkubber {
     width: 140%;
