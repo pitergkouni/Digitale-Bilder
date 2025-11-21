@@ -97,9 +97,6 @@ ul {
 .hero h2 {
   margin: 0 0 6px 0;
 }
-.muted {
-  color: var(--muted);
-}
 
 .grid {
   display: grid;
