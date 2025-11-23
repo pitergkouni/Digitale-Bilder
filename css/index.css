@@ -17,32 +17,21 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
 body {
   width: 100%;
 }
+
 main {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
+
 main img {
   width: 100%;
 }
-header {
-  display: flex;
-  justify-content: space-between;
-  padding-block: 20px;
-  background-image: url(https://t3.ftcdn.net/jpg/01/85/57/96/360_F_185579665_NMf32rs2DHwV8PXipMIyAiwhvib9iGgv.jpg);
-  background-size: contain;
-  color: white;
-  padding-inline: 40px;
-  font-family: "VT323", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
-header p {
-  cursor: default;
-}
+
 .imagecontainer {
   position: relative;
   width: 100%;
@@ -76,14 +65,7 @@ header p {
   cursor: default;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-nav .icon {
-  display: flex;
-  gap: 10px;
-}
-.barnicon {
-  display: flex;
-  align-items: center;
-}
+
 .checknadderud {
   width: fit-content;
   padding-block: 10px;
@@ -109,37 +91,6 @@ nav .icon {
   width: 100%;
   height: 100%;
   color: white;
-}
-header img {
-  width: 100px;
-  border-radius: 50%;
-}
-
-.logotitle {
-  display: flex;
-  gap: 25px;
-  align-items: center;
-  font-size: 60px;
-}
-
-header nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 25%;
-}
-
-header nav a {
-  transition: 0.5s;
-  padding: 10px;
-  font-size: 20px;
-}
-
-header nav a:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-  background-color: rgba(0, 128, 0, 0.548);
-  border-radius: 10px;
 }
 
 body {
